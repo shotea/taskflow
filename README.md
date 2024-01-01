@@ -8,25 +8,20 @@ FOR individuals that are seeking for an efficient task management application WH
 
 1. Clone the repo with HTTPS or SSH
 
-    ```sh
-    git clone https://github.com/CSCI-40500-77100-Summer-2023/project-group-2.git
     ```
+    git clone https://github.com/shotea/taskflow.git
 
-    ```sh
-    git clone git@github.com:CSCI-40500-77100-Summer-2023/project-group-2.git
-    ```
 
 2. Install NPM packages
 
-    ```sh
+ 
     npm install
-    ```
+    
 
 3. Run the app
 
-    ```sh
     npm run dev
-    ```
+    
 
 ## Usage
 
@@ -45,9 +40,9 @@ Currently, tasks are not saved serverside therefore closing the tab will delete 
 ### Important Qualities
 
 1. Security - To ensure the security of TaskFlow, we would need to protect user data, implement proper authentication and authorization mechanisms, and securing connection and communication between TaskFlow and the client.
-2. Performance - To ensure TaskFlow can perform activities quickly and efficiently, we would need to use database queries, caching frequently handled data, and have options for future scalability to handle heavy load.
-3. Software Reuse - By using open-source software such as React, we can save development time and effort. However, this will constrain us to certain architectural choices.
-4. Scalability - In order for TaskFlow to continue growth, we would need to consider designing the architecture in a way that allows for quikc and efficient scaling up and down. We would need to implement technologies that support horizontal scaling such as distributed databases and load balancers.
+2. Performance - To ensure TaskFlow can perform activities quickly and efficiently, I would need to use database queries, caching frequently handled data, and have options for future scalability to handle heavy load.
+3. Software Reuse - By using open-source software such as React, I save development time and effort. However, this will constrain me to certain architectural choices.
+4. Scalability - In order for TaskFlow to continue growth, I need to consider designing the architecture in a way that allows for quikc and efficient scaling up and down. Would need to implement technologies that support horizontal scaling such as distributed databases and load balancers.
 5. Software Compatability - It is important to maintain software compatability with other software systems because not every user uses the same devices and systems. Users and clients might need to import or export data between different systems.
 
 ### Generic Layered Architecture
